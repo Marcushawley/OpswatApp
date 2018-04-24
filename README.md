@@ -7,14 +7,14 @@ The application accepts parameter API Key and complete FILE_NAME( with path) thr
 
 To execute the binaries present in GitHub (without compling), (in a terminal) use command:
 1) Download the code from github
-2) cd <DOWNLOADED CODE>/bin
-3) java  -cp "../lib/gson-2.8.2.jar;" ThreatScanner <API_Key> <FILE_NAME>
+2) cd \<DOWNLOADED CODE\>/bin
+3) java  -cp "../lib/gson-2.8.2.jar;" ThreatScanner \<API_Key\> \<FILE_NAME\>
 
 
 To complile source code (in a terminal) use command:
-1) cd <DOWNLOADED CODE>
+1) cd \<DOWNLOADED CODE\>
 2) javac -cp "./lib/gson-2.8.2.jar;" ThreatScanner.java
-3) java  -cp "./lib/gson-2.8.2.jar;" ThreatScanner <API_Key> <FILE_NAME>
+3) java  -cp "./lib/gson-2.8.2.jar;" ThreatScanner \<API_Key\> \<FILE_NAME\>
 
 
 Code Flow:
